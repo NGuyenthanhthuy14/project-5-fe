@@ -1,11 +1,10 @@
-import { FaRegHeart } from "react-icons/fa6";
 import ButtonPlay from "../button/ButtonPlay";
 import ButtonHeart2 from "../button/ButtonHeart2";
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars, @typescript-eslint/no-explicit-any
 export default function Songitem2 (props: any) {
 
-	const {image, title, singer, time, audio, id, wishlist} = props
+	const {image, title, singer, time} = props
 	return (
 		<>
 			{/* Items */}

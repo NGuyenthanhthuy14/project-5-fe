@@ -1,6 +1,5 @@
 "use client"
 import CardInfo from "@/app/components/card/CardInfo";
-import Title from "@/app/components/title/Title";
 import { dbFirebase } from "@/app/FirebaseConfig";
 import { onValue, ref } from "firebase/database";
 import { useEffect, useState } from "react";
